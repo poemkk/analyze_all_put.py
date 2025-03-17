@@ -1,0 +1,17 @@
+# 请使用以下命令下载所需的 spacy 模型
+# python -m spacy download zh_core_web_sm
+# python -m spacy download ru_core_news_sm
+# python -m spacy download en_core_web_sm
+
+spacy==3.5.3
+python-docx==0.8.11
+PyPDF2==3.10.0
+beautifulsoup4==4.12.2
+sumy==0.9.0
+nltk==3.8.1
+langdetect==1.0.9
+pydjvu
+# 请使用以下命令下载 nltk 的 punkt 分词器数据
+# python -c "import nltk; nltk.download('punkt')"
+
+pydjvu  # 若不需要处理.djvu 文件，可以不安装
